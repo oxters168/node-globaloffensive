@@ -1,7 +1,7 @@
 # Counter-Strike Global Offensive for Node.js
 [![license](https://img.shields.io/npm/l/globaloffensive.svg)](https://github.com/Yaroslav-95/node-globaloffensive/blob/master/LICENSE)
 
-This is a fork of DoctorMcKay's "globaloffensive" project. It includes a missing method in the original project - `requestGame(matchid, outcomeid, token)`.
+This is a fork of Yaroslav-95's "globaloffensive" which is a fork of DoctorMcKay's "globaloffensive" project. It changes what is returned by the request to be the original protobuf data rather than the converted json data.
 
 This module provides a very flexible interface for interacting with the [CS:GO](http://store.steampowered.com/app/730)
 Game Coordinator. It's designed to work with a
