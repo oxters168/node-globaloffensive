@@ -1,5 +1,5 @@
 {
-	"name": "@yaroslav-95/globaloffensive",
+	"name": "@oxters168/globaloffensive",
 	"version": "2.3.0",
 	"description": "Exposes a simple API for interacting with the Counter-Strike: Global Offensive game coordinator",
 	"keywords": [
@@ -14,14 +14,14 @@
 		"valve",
 		"steam"
 	],
-	"homepage": "https://github.com/Yaroslav-95/node-globaloffensive",
+	"homepage": "https://github.com/oxters168/node-globaloffensive",
 	"bugs": {
-		"url": "https://github.com/Yaroslav-95/node-globaloffensive/issues"
+		"url": "https://github.com/oxters168/node-globaloffensive/issues"
 	},
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Yaroslav-95/node-globaloffensive.git"
+		"url": "https://github.com/oxters168/node-globaloffensive.git"
 	},
 	"dependencies": {
 		"bytebuffer": "^5.0.1",
