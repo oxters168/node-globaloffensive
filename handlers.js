@@ -78,8 +78,7 @@ handlers[Language.ClientConnectionStatus] = function(body) {
 
 // MatchList
 handlers[Language.MatchList] = function(body) {
-	let proto = decodeProto(Protos.CMsgGCCStrike15_v2_MatchList, body);
-	this.emit('matchList', proto.matches, proto);
+	this.emit('matchList', body);
 };
 
 // PlayersProfile
